@@ -9,7 +9,7 @@ public class BlocoDestrutivel : MonoBehaviour
     {
         
     }
-
+    //colocar tags dos tiros como "Bullet" ou mudar a tag da colisão
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Bullet")
